@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Movies-app</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <button class="js-btn-movie-list btn-movie-list">
+            СПИСОК ФИЛЬМОВ
+        </button>
+        <button class="js-btn-movie-year btn-movie-year">
+            2023
+        </button>
+    </header>
+    <main>
+        <h1>Посмотреть</h1>
+        <div class="container">
+            <section>
+                <div class="add-movie">
+                    <input 
+                        type="text"
+                        class="js-add-movie-name add-movie-name"
+                        placeholder="Добавить фильм"
+                    />
+
+                    <button class="js-btn-add-movie btn-add-movie">
+                        <img src="resources/arrow.png" alt="">
+                    </button>    
+                </div>
+                
+                <div class="movie-block">
+                    <div class="js-movie-list movie-list"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
